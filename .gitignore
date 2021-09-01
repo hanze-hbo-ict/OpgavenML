@@ -1,0 +1,4 @@
+site/
+docs/files/keynotes/
+__pycache__
+.DS_Store
