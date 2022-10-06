@@ -30,7 +30,7 @@ Hierin is $J(\theta)$ de totale kost die berekend wordt met de huidige waarden v
 De algemene formule voor de hypothese (de voorspelling) is als volgt: 
 
 $$
-h_\theta(x) = \theta^Tx = \theta_0 + \theta_1x 
+h_\theta(x) = \theta^T\vec{x} = \theta_0 + \theta_1x 
 $$
 
 Omdat we op zoek zijn naar een lijn, hebben we feitelijk te maken met één parameter (een lijn is immers $y=ax + b = b + ax$). Allereerst bepalen we het aantal datapunten ($m$) en het aantal eigenschappen (*features*, $n$). Om de dimensionaliteit van de trainingsdata te laten corresponderen met $\theta$, voegen we vervolgens een rij van enen toe. Daarna isoleren we de laatste kolom van de data om de gewenste waarden te krijgen (de vector $y$); de rest van de data vormt dan de eigenlijke matrix $X$. Tenslotte initiëren we de vector $\theta$:
