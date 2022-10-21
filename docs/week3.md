@@ -1,7 +1,7 @@
 # Opgaven week 3
 
 ## Inleiding
-Deze laatste week staat in het teken van [TensorFlow](https://www.tensorflow.org/) en [Keras](https://keras.io/). Tot nu toe hebben we de programmacode die bij de wiskunde hoorde zelf uitgeprogrammeerd, maar in de praktijk zul je dat niet heel vaak tegenkomen. Omdat de wiskunde behoorlijk complex kan worden, en feitelijk toch altijd min of meer hetzelfde is, zijn deze twee frameworks ontwikkeld om dergelijke implementatiedetails te abstraheren. Door deze (en vergelijkbare – er zijn er meer) frameworks te gebruiken, is het voor de ontwikkelaar mogelijk om zich te richten op de daadwerkelijke architectuur en optimalisatie-strategieën.<
+Deze week staat in het teken van [TensorFlow](https://www.tensorflow.org/) en [Keras](https://keras.io/). Tot nu toe hebben we de programmacode die bij de wiskunde hoorde zelf uitgeprogrammeerd, maar in de praktijk zul je dat niet heel vaak tegenkomen. Omdat de wiskunde behoorlijk complex kan worden, en feitelijk toch altijd min of meer hetzelfde is, zijn deze twee frameworks ontwikkeld om dergelijke implementatiedetails te abstraheren. Door deze (en vergelijkbare – er zijn er meer) frameworks te gebruiken, is het voor de ontwikkelaar mogelijk om zich te richten op de daadwerkelijke architectuur en optimalisatie-strategieën.<
 
 In de eerste opgave gaan we werken met een standaard-dataset, die in TensorFlow is ingebakken, om een netwerk te trainen. De tweede opgave gaat op basis van dit netwerk een *confusion matrix* uitrekenen en tekenen. In de derde en laatste opgave moet je een hele architectuur *from scratch* uitdenken en uitwerken.
 
@@ -87,3 +87,7 @@ Implementeer nu de methode `confData()`, waarin je de data die je in de vorige o
 - $fall-out (FPR) = \frac{fp}{fp + tn}$
 
 Deze methode krijgt de lijst uit de vorige opgave mee: de totale $tp$ is dan de som van alle $tp$'s van alle labels – en vergelijkbare berekeningen voor de total $tn$, $fp$ en $fn$. Retourneer deze data als een dictionary. Als je deze beide methoden hebt geïmplementeerd, kun je het script `exercise3.py` nogmaals runnen; Hierdoor worden deze waarden afgedrukt. Zeg op basis van deze resultaten iets over de kwaliteit van het uitgeprogrammeerde netwerk.
+
+## Opgave 3: Introductie Jupyter Notebook en SciKit Learn
+
+Zoals tijdens de theorieles besproken, maken we vanaf nu gebruik van Jupyter Notebook en van SciKit Learn. Download [deze Notebook](files/intro%20notebook%20en%20sklearn.ipynb), start `jupyter notebook` en open de notebook. Volg de instructies die je daar ziet.
