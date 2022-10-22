@@ -2,7 +2,7 @@ site_name: Machine Learniing
 copyright: HG 2021
 site_author: Bart Barnard
 site_description: 'Opgaven voor Machine Learning (jaar 4 SE)'
-site_url: 'https://blackboard.hanze.nl/bbcswebdav/xid-64865413_2'
+site_url: 'https://hanze-hbo-ict.github.io/OpgavenML/'
 use_directory_urls: false
 
 theme:
